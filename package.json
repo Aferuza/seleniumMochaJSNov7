@@ -1,0 +1,19 @@
+{
+  "name": "seleniummochajsnov7",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha --timeout 60000"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "chromedriver": "^119.0.1",
+    "mocha": "^10.2.0",
+    "selenium-webdriver": "^4.15.0"
+  },
+  "devDependencies": {
+    "mocha-junit-reporter": "^2.2.1"
+  }
+}
